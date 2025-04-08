@@ -1,6 +1,6 @@
-let num1 = (prompt("Введите первое число:")); 
-let operator = prompt("Введите оператор (+, -, *, /):");  
-let num2 = (prompt("Введите второе число:"));  
+let num1 = parseFloat(prompt("Введите первое число:")); 
+let operator = parseFloat(prompt("Введите оператор (+, -, *, /):"));  
+let num2 = parseFloat(prompt("Введите второе число:"));  
 
 switch (operator) {
 case '+':  
